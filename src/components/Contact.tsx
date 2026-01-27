@@ -22,7 +22,7 @@ const Contact = () => {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Visit Us',
       details: [
-        { text: 'Delhi NCR, India', href: '#' },
+        { text: 'JVTS Garden, Block G, Chattarpur, New Delhi, 110074', href: '#' },
       ],
     },
   ];
