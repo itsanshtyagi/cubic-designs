@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Clock } from 'lucide-react';
+import { Phone, Mail, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Contact = () => {
@@ -15,7 +15,7 @@ const Contact = () => {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email Us',
       details: [
-        { text: 'info@cubicdesigns.in', href: 'mailto:info@cubicdesigns.in' },
+        { text: 'service.cubicdesigns@gmail.com', href: 'mailto:service.cubicdesigns@gmail.com' },
       ],
     },
     {
@@ -23,14 +23,6 @@ const Contact = () => {
       title: 'Visit Us',
       details: [
         { text: 'Delhi NCR, India', href: '#' },
-      ],
-    },
-    {
-      icon: <Clock className="w-6 h-6" />,
-      title: 'Working Hours',
-      details: [
-        { text: 'Mon - Sat: 9AM - 7PM', href: '#' },
-        { text: 'Sunday: By Appointment', href: '#' },
       ],
     },
   ];
@@ -54,7 +46,7 @@ const Contact = () => {
         </div>
 
         {/* Contact Cards */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {contactInfo.map((info, index) => (
             <div
               key={index}
@@ -99,7 +91,7 @@ const Contact = () => {
               </Button>
             </a>
             <a
-              href="https://wa.me/918287507128"
+              href="https://wa.me/918287507128?text=Hello%20Cubic%20Designs,%20I%20am%20interested%20in%20your%20home%20and%20window%20solutions"
               target="_blank"
               rel="noopener noreferrer"
             >
