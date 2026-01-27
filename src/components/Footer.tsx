@@ -44,7 +44,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://wa.me/918287507128"
+                href="https://wa.me/918287507128?text=Hello%20Cubic%20Designs,%20I%20am%20interested%20in%20your%20home%20and%20window%20solutions"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-background/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors"
@@ -119,9 +119,6 @@ const Footer = () => {
               </li>
               <li>
                 <span className="text-background/70">Delhi NCR, India</span>
-              </li>
-              <li>
-                <span className="text-background/70">Mon - Sat: 9AM - 7PM</span>
               </li>
             </ul>
           </div>
