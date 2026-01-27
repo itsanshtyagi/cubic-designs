@@ -91,7 +91,7 @@ const Contact = () => {
               </Button>
             </a>
             <a
-              href="https://wa.me/918287507128?text=Hello%20Cubic%20Designs,%20I%20am%20interested%20in%20your%20home%20and%20window%20solutions"
+              href="https://wa.me/918287507128?text=Hello%20Cubic%20Designs,%20I%20am%20interested%20in%20your%20home%20and%20window%20solutions."
               target="_blank"
               rel="noopener noreferrer"
             >
