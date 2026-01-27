@@ -118,7 +118,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <span className="text-background/70">Delhi NCR, India</span>
+                <span className="text-background/70">JVTS Garden, Block G, Chattarpur, New Delhi, 110074</span>
               </li>
             </ul>
           </div>
